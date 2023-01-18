@@ -7,6 +7,7 @@ namespace Mission2pt2
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("This is a test.");
             Console.WriteLine("Welcome to the dice throwing simulator!");
             Console.Write("How many dice rolls would you like to simulate? ");
             int numRolls = int.Parse(Console.ReadLine());
