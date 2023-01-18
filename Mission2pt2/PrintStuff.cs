@@ -5,10 +5,12 @@ namespace Mission2pt2
     public class PrintStuff
     {
         // Constructor
-        public PrintStuff ()
-        {
+        //public PrintStuff ()
+        // {
 
-        }
+        // }
+
+        // Print the results
         public void PrintResults(int numRolls, int[] totals)
         {
             Console.WriteLine("DICE ROLLING SIMULATION RESULTS");
@@ -25,6 +27,8 @@ namespace Mission2pt2
                     Console.Write("*");
                 Console.WriteLine();
             }
+
+            //Conclusion and Goodbye
             Console.WriteLine();
             Console.WriteLine("Thank you for using the dice throwing simulator. Goodbye!");
         }
